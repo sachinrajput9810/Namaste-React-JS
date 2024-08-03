@@ -69,6 +69,32 @@
 
 
 
+# PARCEL 
+- Dev build 
+- local server
+- HMR(Hot module replacement) => automatic refreshing
+without reloading the complete web page
+- Uses file watching algo - written in c++
+- Gives faster builds using caching (.parcel-cache) 
+- Caching - Faster builds
+- Image Optimization
+- Bundling
+- Minification
+- Compressing the files
+- Consistent Hashing => In the context of Parcel, Consistent Hashing is used to optimize the caching of files, so that when a file is updated, only the necessary files are re-processed and re-cached, rather than re-processing and re-caching all files. This makes the build process faster and more efficient.
+
+- Code splitting => It creates separate bundles for each module, containing only the necessary code.
+
+- Tree shaking => It removes unused code from the bundle.
+
+- Differential Bundling -It creates multiple bundles of your code, each containing only the changes made since the last build. 
+
+- Transpilation - one lang to other , like babel to convert modern js -> older js version
+
+- diff dev and prod build(it takes more time for build on prod rather than dev)
+
+
+
 
 
 
